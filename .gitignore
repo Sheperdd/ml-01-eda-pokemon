@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+.envrc
+.ipynb_checkpoints/
+
+# Data
+data/*.parquet
+data/*.feather
+data/*.zip
+data/*.jsonl
+data/raw/
+data/external/
+data/interim/
+!data/sample_customers.csv
+
+# OS
+.DS_Store
+
+# Reports
+reports/*
+!report.md
+
+# Logs
+logs/*
